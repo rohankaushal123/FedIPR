@@ -25,7 +25,7 @@ class Experiment(object):
         self.save_history_interval = 1
         self.device = torch.device('cuda')
         
-        root = "/content/FedIPR-new/"
+        root = "/content/FedIPR/"
         self.num_users = args.num_users
         self.num_back = args.num_back
         self.num_sign = args.num_sign
