@@ -297,7 +297,7 @@ def main(args):
     logs['test_acc'] = test_acc
     logs['bp_local'] = True if args.bp_interval == 0 else False
 
-    save_dir = '/content/FedIPR-new/save/'
+    save_dir = '/content/FedIPR/save/'
 
     if not os.path.exists(save_dir + args.model_name +'/' + args.dataset):
         os.makedirs(save_dir + args.model_name +'/' + args.dataset)
