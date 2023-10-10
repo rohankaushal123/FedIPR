@@ -60,7 +60,7 @@ def get_data(dataset, data_root, iid, num_users):
 
         train_set = torchvision.datasets.CIFAR100(data_root,
                                                train=True,
-                                               download=False,
+                                               download=True,
                                                transform=transform_train
                                                )
 
