@@ -40,7 +40,7 @@ def get_data(dataset, data_root, iid, num_users):
 
         test_set = torchvision.datasets.CIFAR10(data_root,
                                                 train=False,
-                                                download=True,
+                                                download=False,
                                                 transform=transform_test
                                                 )
     
